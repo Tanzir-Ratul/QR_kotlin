@@ -15,9 +15,8 @@
         tools:context=".MainActivity">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="fitXY"
             android:id="@+id/imageView"
             android:src="@drawable/ic_launcher_background" />
 
@@ -29,6 +28,11 @@
 
         <Button
             android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capture" />
+        <Button
+            android:id="@+id/scanBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Scan QR Code" />
